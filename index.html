@@ -64,8 +64,10 @@
             <div class="resume-section-content">
                 <h1 class="mb-0">
                     Naveed
-                    <span class="text-primary">Ali</span>
+                    <span class="text-primary">Ali</span> <br>
+                    
                 </h1>
+                <h2 class="text-primary"><span class="ityped"></span></h2>
                 <div class="subheading mb-5">
                     Lahore, Pakistan · (+92) 3044551558 ·
                     <a class="text-lowercase" href="mailto:naveedaliansari1@gmail.com">naveedaliansari1@gmail.com</a>
@@ -305,7 +307,8 @@
                     <div class="form-group">
                         <label for="textarea">Message</label>
                         <textarea id="textarea" name="textarea" cols="40" rows="5" required="required"
-                            class="form-control"></textarea>
+                            class="form-control">
+                        </textarea>
                     </div>
                     <div class="form-group">
                         <button name="submit" type="submit" class="btn btn-primary">Send Now</button>
@@ -375,6 +378,13 @@
                 :+shdmNNNNmdhs+:              
 `;
     </script>
+    <script src="https://unpkg.com/ityped@0.0.10"></script>
+    <script>
+          window.ityped.init(document.querySelector('.ityped'),{
+              strings: ['Frontend Developer','UI/UX Developer','Angular Developer', 'ReactJs Developer'],
+              loop: true
+          })
+      </script>
 </body>
 
 </html>
